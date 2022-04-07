@@ -1,0 +1,317 @@
+
+  <html lang="en">
+
+  <head>
+    <title>Home</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../../static/myreels/stylesheet.css" />
+    <link rel="stylesheet" type="text/css" href="../../static/myreels/slider.css" />
+    <link rel="stylesheet" type="text/css" href="../../static/myreels/login.css" />
+    <link rel="stylesheet" type="text/css" href="../../static/myreels/search.css" />
+    <link rel="stylesheet" href="fontawesome-free-5.15.1/css/all.css">
+
+  </head>
+
+  <body>
+  <div class="header-wrap">
+        <div class="title">Reels</div>
+<div class="header-search">
+
+
+
+    <button class="btn-header"> <a href="{% url 'myreels:search' %}">Search</a></button>
+
+{#              <i class="fas fa-search"></i>#}
+
+{% if username %}
+<p>Hi {{ username }} !</p>
+     <button class="btn-header"><a href= "{% url 'myreels:logout' %}"> Logout </a> </button>
+
+    {%  else %}
+
+    <button class="btn-header"><a href= "{% url 'myreels:register' %}"> Register </a> </button>
+        <button class="btn-header"><a href= "{% url 'myreels:login' %}"> SignIn </a> </button>
+
+{% endif %}
+{#            <button><a class = "signup-text" href="{% url 'myreels:register' %}">Signup</a></button>#}
+{#           <button><a href="{% url 'myreels:login' %}">Login</a></button>#}
+
+</div>
+        </div>
+
+
+    <div class="container">
+
+      <div class="head1">
+
+{#        <p><a class = "signup-text" href="{% url 'myreels:register' %}">Signup</a></p>#}
+{#           <p><a href="{% url 'myreels:login' %}">Login</a></p>#}
+
+
+{#        <div class="box2">#}
+{#          <form name="search">#}
+{#              <input type="text" class="input" name="txt"#}
+{#              onmouseout="document.search.txt.value = ''">#}
+{#          </form>#}
+{#              <i class="fas fa-search"></i>#}
+{#      </div>#}
+      </div>
+
+
+      <div class="demo-cont">
+        <!-- slider start -->
+        <div class="fnc-slider example-slider">
+          <div class="fnc-slider__slides">
+
+            <!-- slide start -->
+            <div class="fnc-slide m--blend-green m--active-slide">
+              <div class="fnc-slide__inner">
+                <div class="fnc-slide__mask">
+                  <div class="fnc-slide__mask-inner"></div>
+                </div>
+                <div class="fnc-slide__content">
+                  <h2 class="fnc-slide__heading">
+                    <div class="fnc-slide__heading-line">
+                      <span>Black</span>
+                    </div>
+                    <div class="fnc-slide__heading-line">
+                      <span>Widow</span>
+                    </div>
+                  </h2>
+                  <button type="button" class="fnc-slide__action-btn">
+                    Credits
+                    <span data-text="Credits">Credits</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- slide end -->
+            <!-- slide start -->
+            <div class="fnc-slide m--blend-dark">
+              <div class="fnc-slide__inner">
+                <div class="fnc-slide__mask">
+                  <div class="fnc-slide__mask-inner"></div>
+                </div>
+                <div class="fnc-slide__content">
+                  <h2 class="fnc-slide__heading">
+                    <div class="fnc-slide__heading-line">
+                      <span>Captain</span>
+                    </div>
+                    <div class="fnc-slide__heading-line">
+                      <span>America</span>
+                    </div>
+                  </h2>
+                  <button type="button" class="fnc-slide__action-btn">
+                    Credits
+                    <span data-text="Credits">Credits</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- slide end -->
+            <!-- slide start -->
+            <div class="fnc-slide m--blend-red">
+              <div class="fnc-slide__inner">
+                <div class="fnc-slide__mask">
+                  <div class="fnc-slide__mask-inner"></div>
+                </div>
+                <div class="fnc-slide__content">
+                  <h2 class="fnc-slide__heading">
+                    <div class="fnc-slide__heading-line">
+                      <span>Iron</span>
+                    </div>
+                    <div class="fnc-slide__heading-line">
+                      <span>Man</span>
+                    </div>
+                  </h2>
+                  <button type="button" class="fnc-slide__action-btn">
+                    Credits
+                    <span data-text="Credits">Credits</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- slide end -->
+            <!-- slide start -->
+            <div class="fnc-slide m--blend-blue">
+              <div class="fnc-slide__inner">
+                <div class="fnc-slide__mask">
+                  <div class="fnc-slide__mask-inner"></div>
+                </div>
+                <div class="fnc-slide__content">
+                  <h2 class="fnc-slide__heading">
+                    <div class="fnc-slide__heading-line">
+                      <span>Thor</span>
+                    </div>
+                    <div class="fnc-slide__heading-line">
+                      <span>Just Thor</span>
+                    </div>
+                  </h2>
+                  <button type="button" class="fnc-slide__action-btn">
+                    Movies of the year!
+                    <span data-text="Credits">Movies of the year!</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- slide end -->
+          </div>
+          <nav class="fnc-nav">
+            <div class="fnc-nav__bgs">
+              <div class="fnc-nav__bg m--navbg-green m--active-nav-bg"></div>
+              <div class="fnc-nav__bg m--navbg-dark"></div>
+              <div class="fnc-nav__bg m--navbg-red"></div>
+              <div class="fnc-nav__bg m--navbg-blue"></div>
+            </div>
+            <div class="fnc-nav__controls">
+              <button class="fnc-nav__control">
+                Black Widow
+                <span class="fnc-nav__control-progress"></span>
+              </button>
+              <button class="fnc-nav__control">
+                Captain America
+                <span class="fnc-nav__control-progress"></span>
+              </button>
+              <button class="fnc-nav__control">
+                Iron Man
+                <span class="fnc-nav__control-progress"></span>
+              </button>
+              <button class="fnc-nav__control">
+                Thor
+                <span class="fnc-nav__control-progress"></span>
+              </button>
+            </div>
+          </nav>
+        </div>
+        <!-- slider end -->
+        <div class="demo-cont__credits">
+          <div class="demo-cont__credits-close"></div>
+
+          <img src="../../static/myreels/Images/rating.png" alt=""
+            class="demo-cont__credits-img" />
+          <h3 class="demo-cont__credits-name">Top rated movies to watch</h3>
+          <h2 class="demo-cont__credits-heading">Based on Highest user ratings</h2>
+    
+        </div>
+      </div>
+      
+      <div class="container">
+      <div class="section-2">
+        
+        <div class="tabs">
+          <div class="tab-2">
+            <label for="tab2-1">Top Rated</label>
+            <input id="tab2-1" name="tabs-two" type="radio" checked="checked">
+            <div class="inner-sec">
+            <h3>Top movies of the year 2022!</h3>
+
+                {% if top_rated %}
+<h2> Top Rated Movies </h2>
+<div class="movie-wrapper">
+	{% for movie in top_rated %}
+
+        <div class="box">
+        <a class="movie-link" href="{% url 'myreels:detail' movie.id %}"></a>
+                <img class="img" src="{{  movie.image.url }}" alt="img1">
+                <div class="wrap1">
+                  <p class="text1">{{ movie.rating }}</p>
+                  <img class="img1" src="../../static/myreels/Images/cart.png" alt="img1">
+                  <div class="down">
+                      <h2 class="text">{{ movie.title }}</h2>
+                      {% for cat in movie.category.all %}
+                    <p class="text2">{{ cat.category }}</p>
+                          {% endfor %}
+                  </div>
+                </div>
+              </div>
+{#        <li> <a href="{% url 'myreels:detail' movie.id %}">{{ movie.title}} </a></li>#}
+{#        <img src="{{  movie.image.url }}" width="250"/>#}
+
+{#        <li> <a href="{% url 'myreels:detail' type.id %}">{{ movie.title}}, {movie.image} </a></li>#}
+{% endfor %}
+</div>
+{% else %}
+<strong> None of the movies are available! </strong>
+{% endif %}
+
+          </div>
+        </div>
+          
+          <div class="tab-2">
+            <label for="tab2-2">New</label>
+            <input id="tab2-2" name="tabs-two" type="radio">
+            
+            <div class="inner-sec">
+              <h3>New Upcoming Movies</h3>
+
+                {% if coming_soon %}
+
+<div class="movie-wrapper">
+	{% for movie in coming_soon %}
+
+{#        <div class="box">#}
+{#                  <img class="img" src="{{  movie.image.url }}" alt="img1">#}
+{#                  <div class="wrap1">#}
+{##}
+{#                    <img class="img1" src="../../static/myreels/Images/cart.png" alt="img1">#}
+{#                    <div class="down">#}
+{#                      <h2 class="text">{{ movie.title }}</h2>#}
+{#                        {% for cat in movie.category.all %}#}
+{#                      <p class="text2">{{ cat.category }}</p>#}
+{#                            {% endfor %}#}
+{#                    </div>#}
+{#                  </div>#}
+{#                </div>#}
+
+        <div class="box">
+        <a class="movie-link" href="{% url 'myreels:detail' movie.id %}"></a>
+                <img class="img" src="{{  movie.image.url }}" alt="img1">
+                <div class="wrap1">
+                  <img class="img1" src="../../static/myreels/Images/cart.png" alt="img1">
+                  <div class="down">
+                      <h2 class="text">{{ movie.title }}</h2>
+                      {% for cat in movie.category.all %}
+                    <p class="text2">{{ cat.category }}</p>
+                          {% endfor %}
+                  </div>
+                </div>
+              </div>
+
+{#        <li> <a href="{% url 'myreels:detail' movie.id %}">{{ movie.title}} </a></li>#}
+{#        <img src="{{  movie.image.url }}" width="250"/>#}
+
+{#        <li> <a href="{% url 'myreels:detail' type.id %}">{{ movie.title}}, {movie.image} </a></li>#}
+{% endfor %}
+</div>
+{% else %}
+<strong> None of the movies are available! </strong>
+{% endif %}
+
+          </div>
+        </div>
+     </div>
+
+     <div class="f1">
+      <div class="foot">
+        <p>Terms & Conditions</p>
+        <a href="{% url 'myreels:register' %}">Join us</a>
+        <a href="{% url 'myreels:login' %}">Login</a>
+       
+      </div>
+    </div>
+
+  </div>
+      </div>
+
+        <script src="../../js/main.js"></script>
+        
+        <script src="../../js/search.js"></script>
+        <script src="https://kit.fontawesome.com/afd6aa68df.js" crossorigin="anonymous"></script>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+          integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+  </body>
+
+  </html>

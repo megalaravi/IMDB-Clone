@@ -1,0 +1,46 @@
+{% extends 'myreels/base.html' %} {% block body_block %}
+<body>
+  {% if details %}
+  <div class="movie-details-wrapper">
+    <div class="title-section">
+      <h2 class="title">Title: {{ details.title }}</h2>
+      <div class="rating">
+         <span class="rate-head">Reels Rating</span>
+          <div class="rating-txt">
+              <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" class="ipc-icon ipc-icon--star sc-7ab21ed2-4 hLFdut" id="iconContext-star" viewBox="0 0 24 24" fill="yellow" role="presentation"><path d="M12 17.27l4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z"></path></svg>
+        <div>
+              <p> <span class="rate">{{ details.rating }} </span>/ 10</p>
+        <p> {{ details.rating_count }}</p>
+        </div>
+
+          </div>
+
+      </div>
+    </div>
+
+    <div class="banner">
+      <img src="{{  details.banner.url }}" />
+    </div>
+
+    <div class="category">
+      {% for cat in details.category.all %}
+      <p class="badges">{{ cat.category }}</p>
+      {% endfor %}
+    </div>
+    <p class="description">{{ details.desc }}</p>
+
+    <div class="movie-crew">
+      <p  class="crew-head">Movie crew</p>
+      {% for crew in details.cast.all %}
+      <p class="crew-member">{{ crew.first_name }} {{ crew.last_name }}</p>
+
+      {% endfor %}
+{#        <p> <a href="{% url 'myreels:placeorder' %}">Place order</a></p>#}
+        {% else %}
+      <strong>There are no items under the type </strong>
+    </div>
+  </div>
+
+  {% endif %}
+</body>
+{% endblock %}

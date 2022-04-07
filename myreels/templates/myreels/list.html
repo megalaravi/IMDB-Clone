@@ -1,0 +1,26 @@
+{% extends 'myreels/base.html' %} {% block body_block %}
+<body>
+  <div class="movie-list-wrap">
+    {% if lists %}
+
+    <ol class="movies">
+      {% for list in lists %}
+      <li class="movie-list">
+        <img class="thumbnail" src="{{ list.image.url }}" />
+          <div>
+        <a href="{% url 'myreels:detail' list.id %}">{{ list.title}} </a>
+        <p>Rating: {{ list.rating }}</p>
+          </div>
+
+      </li>
+
+      {% endfor %}
+    </ol>
+
+     {% else %}
+    <strong>No Movies Found </strong>
+
+    {% endif %}
+  </div>
+</body>
+{% endblock %}

@@ -1,0 +1,23 @@
+{% extends 'myreels/base.html' %}
+{% block body_block %}
+<body>
+
+<div class = "login-wrapper">
+    <div class = "login-form register">
+        <h1 class = "mb-3">Registration</h1>
+
+    <form method="post" action="{% url 'myreels:register' %}">
+        {% csrf_token %}
+
+        {% if form.errors %}
+        <p>There are errors in the form!</p>
+        {% endif %}
+
+        {{ form }}
+
+        <input type="submit" value="register">
+    </form>
+    </div>
+</div>
+</body>
+{% endblock %}

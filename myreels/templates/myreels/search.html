@@ -1,0 +1,22 @@
+{% extends 'myreels/base.html' %}
+{% block body_block %}
+<body>
+
+<div class = "login-wrapper">
+    <div class = "login-form">
+<h1>Search here</h1>
+
+{#<form action = "{% url 'myreels:list'  %}" method="post">#}
+<form method="post">
+    {% csrf_token %}
+{#{% csrf_token %}#}
+{#    <table>{{ searchform.as_table}}</table>#}
+{#    <input type="submit" value="Search Here">#}
+{#</form>#}
+{{ form }}
+<input type="submit" value="Go">
+</form>
+    </div>
+</div>
+</body>
+{% endblock %}

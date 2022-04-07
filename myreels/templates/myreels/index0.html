@@ -1,0 +1,34 @@
+{% extends 'myreels/base.html' %}
+{% block body_block %}
+<body>
+
+
+
+{% if username %}
+<p>Hi {{ username }} !</p>
+     <p class="hd__txt"><a href= "{% url 'myreels:logout' %}"> Logout </a> </p>
+
+    {%  else %}
+    <div class="hd__l">
+    <p class="hd__txt"><a href= "{% url 'myreels:register' %}"> Register </a> </p>
+        <p class=""><a href= "{% url 'myreels:login' %}"> SignIn </a> </p>
+</div>
+{% endif %}
+{% if top_rated %}
+<h2> Top Rated Movies </h2>
+<ol>
+	{% for movie in top_rated %}
+        <li> <a href="{% url 'myreels:detail' movie.id %}">{{ movie.title}} </a></li>
+        <img src="{{  movie.image.url }}" width="250"/>
+
+{#        <li> <a href="{% url 'myreels:detail' type.id %}">{{ movie.title}}, {movie.image} </a></li>#}
+{% endfor %}
+</ol>
+{% else %}
+<strong> None of the types is available! </strong>
+{% endif %}
+
+<p><a href="{% url 'myreels:index' %}">Home Page</a></p>
+</body>
+{% endblock %}
+

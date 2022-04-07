@@ -1,0 +1,39 @@
+{% extends 'myreels/base.html' %}
+{% block body_block %}
+<body>
+<div class = "login-wrapper">
+    <div class = "login-form">
+        <h1 class = "mb-3">Login</h1>
+<form method="post">
+		{% csrf_token %}
+
+{#        {% if form.errors %}#}
+{#             {% for field in form %}#}
+{#           {% for error in field.errors %}#}
+{#              <div class="alert alert-danger">#}
+{#                   <strong>{{ error|escape }}</strong>#}
+{#              </div>#}
+{#           {% endfor %}#}
+{#       {% endfor %}#}
+{#            {% else %}#}
+{#            <p>Logged in Successfully</p>#}
+{#        {% endif %}#}
+{#    {% if messages %}#}
+{#<ul class="messages">#}
+{#    {% for message in messages %}#}
+{#    <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>#}
+{#    {% endfor %}#}
+{#</ul>#}
+{#{% endif %}#}
+
+        {{ form }}
+
+        <input type="submit" value="Login">
+    </form>
+
+        <p>Don't you have an account? <a href="{% url 'myreels:register' %}"> Sign Up</a></p>
+    </div>
+</div>
+
+</body>
+{% endblock %}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="{% static 'myreels/style.css' %}"/>
+     <link rel="stylesheet" type="text/css" href="../../static/myreels/search.css" />
+    <title> Reels -  Welcome! </title>
+</head>
+<body class="cn">
+<div class="" >
+<div class="hd__cn">
+    <div class="header-wrap">
+        <div class="title"><a href = "{% url 'myreels:index'%}">Reels</a></div>
+{#    <div class="box2">#}
+{#          <form name="search">#}
+{#              <input type="text" class="input" name="txt"#}
+{#              onmouseout="document.search.txt.value = ''">#}
+{#          </form>#}
+{#              <i class="fas fa-search"></i>#}
+{#      </div>#}
+
+        </div>
+
+{#    <div class="headimg" align="center">#}
+{#    <img class="banner"src="../../static/myreels/movies_banner/index.jpeg" />#}
+{#    </div>#}
+
+{#<p class="hd__txt"><a href= "{% url 'myreels:search' %}"> Search </a> </p>#}
+
+
+
+</div>
+    {% block body_block %}*** {% endblock %}
+</div>
+{#<div>#}
+{#     <img class="banner"src="../../static/myreels/movies_banner/index.jpeg" />#}
+{#</div>#}
+
+
+<div>
+    <ul>
+{#        <li class="hbar1"><a href="http://127.0.0.1:8000/about/"> Find out about this site </a></li>#}
+{#        <li class="hbar1"><a href = "{% url 'myreels:index'%}"> Click here to return to main page </a><br/></li>#}
+
+{#        <li class="hbar1"><a href= "{% url 'myreels:logout' %}"> Logout </a> </li>#}
+    </ul>
+</div>
+</body>

@@ -8,28 +8,41 @@
 </head>
 <body class="cn">
 <div class="" >
-<div class="hd__cn">
-    <div class="header-wrap">
-        <div class="title"><a href = "{% url 'myreels:index'%}">Reels</a></div>
-{#    <div class="box2">#}
-{#          <form name="search">#}
-{#              <input type="text" class="input" name="txt"#}
-{#              onmouseout="document.search.txt.value = ''">#}
-{#          </form>#}
+
+<div class="header-wrap">
+        <a href="{% url 'myreels:index' %}" class="title">Reels</a>
+<div class="header-search">
+
+
+
+    <button class="btn-header"> <a href="{% url 'myreels:search' %}">Search</a></button>
+
 {#              <i class="fas fa-search"></i>#}
-{#      </div>#}
 
-        </div>
-
-{#    <div class="headimg" align="center">#}
-{#    <img class="banner"src="../../static/myreels/movies_banner/index.jpeg" />#}
-{#    </div>#}
-
-{#<p class="hd__txt"><a href= "{% url 'myreels:search' %}"> Search </a> </p>#}
+{% if user.is_authenticated %}
+    <button class="btn-header"><a href= "{% url 'myreels:view_orders' %}"> View Orders </a> </button>
+<p class="username">Hi {{ user.username }} !</p>
+     <button class="btn-header"><a href= "{% url 'myreels:logout' %}"> Logout </a> </button>
 
 
+    {%  else %}
+
+    <button class="btn-header"><a href= "{% url 'myreels:register' %}"> Register </a> </button>
+        <button class="btn-header"><a href= "{% url 'myreels:login' %}"> SignIn </a> </button>
+{#    <button class="btn-header"><a href= "{% url 'myreels:login' %}"> SignIn </a> </button>#}
+
+{% endif %}
+{#            <button><a class = "signup-text" href="{% url 'myreels:register' %}">Signup</a></button>#}
+{#           <button><a href="{% url 'myreels:login' %}">Login</a></button>#}
 
 </div>
+        </div>
+{#<div class="hd__cn">#}
+{#    <div class="header-wrap">#}
+{#        <div class="title"><a href = "{% url 'myreels:index'%}">Reels</a></div>#}
+{##}
+{#        </div>#}
+{#</div>#}
     {% block body_block %}*** {% endblock %}
 </div>
 {#<div>#}

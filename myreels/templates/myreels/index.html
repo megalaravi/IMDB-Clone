@@ -24,14 +24,17 @@
 
 {#              <i class="fas fa-search"></i>#}
 
-{% if username %}
-<p>Hi {{ username }} !</p>
+{% if user.is_authenticated %}
+     <button class="btn-header"><a href= "{% url 'myreels:view_orders' %}"> View Orders </a> </button>
+<p class="username">Hi {{ user.username }} !</p>
      <button class="btn-header"><a href= "{% url 'myreels:logout' %}"> Logout </a> </button>
+
 
     {%  else %}
 
     <button class="btn-header"><a href= "{% url 'myreels:register' %}"> Register </a> </button>
         <button class="btn-header"><a href= "{% url 'myreels:login' %}"> SignIn </a> </button>
+{#    <button class="btn-header"><a href= "{% url 'myreels:login' %}"> SignIn </a> </button>#}
 
 {% endif %}
 {#            <button><a class = "signup-text" href="{% url 'myreels:register' %}">Signup</a></button>#}

@@ -28,14 +28,20 @@
       {% endfor %}
     </div>
     <p class="description">{{ details.desc }}</p>
+  <p class="description">Release Date: {{ details.year }}</p>
 
     <div class="movie-crew">
       <p  class="crew-head">Movie crew</p>
       {% for crew in details.cast.all %}
-      <p class="crew-member">{{ crew.first_name }} {{ crew.last_name }}</p>
+      <p class="crew-member">{{ crew.name }}</p>
 
       {% endfor %}
-{#        <p> <a href="{% url 'myreels:placeorder' %}">Place order</a></p>#}
+
+      <form  method="post">
+            {% csrf_token %}
+            {{ form }}
+            <button class="btn-black" type="submit">Order</button>
+        </form>
         {% else %}
       <strong>There are no items under the type </strong>
     </div>

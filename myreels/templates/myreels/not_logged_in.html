@@ -1,0 +1,13 @@
+{% extends 'myreels/base.html' %}
+
+{% block body_block %}
+<body>
+<div class = "login-wrapper">
+    <h2>{{ msg }}</h2>
+
+    <button class="btn-black"> <a href="{% url 'myreels:login' %}">Login</a></button>
+</div>
+
+
+</body>
+{% endblock %}

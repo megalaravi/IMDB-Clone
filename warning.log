@@ -1,0 +1,2130 @@
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+
+
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Not Found: /js/main.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Not Found: /js/main.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Form is not post
+Form is not post
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Not Found: /js/main.js
+Form is not post
+Form is not post
+Form is not post
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Form is not post
+Forbidden (CSRF token missing.): /forgot_password
+Form is not post
+Form is not post
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Form is not post
+Form is not post
+Form is not post
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Not Found: /js/main.js
+Form is not post
+Method Not Allowed (POST): /password_reset/done
+Method Not Allowed: /password_reset/done
+Form is not post
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Form is not post
+Form is not post
+Form is not post
+Method Not Allowed (POST): /password_reset/done
+Method Not Allowed: /password_reset/done
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Form is not post
+Method Not Allowed (POST): /password_reset/done
+Method Not Allowed: /password_reset/done
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Not Found: /js/main.js
+Form is not post
+Method Not Allowed (POST): /password_reset/done
+Method Not Allowed: /password_reset/done
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Form is not post
+Form is not post
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Not Found: /js/main.js
+Form is not post
+Internal Server Error: /forgot_password
+Traceback (most recent call last):
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/myreels/views.py", line 134, in forgot_password
+    return render(request, 'myreels/forgot_password.html', context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 62, in render
+    return self.template.render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/urls/resolvers.py", line 802, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'password_reset_form' not found. 'password_reset_form' is not a valid view function or pattern name.
+Form is not post
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Form is not post
+Form is not post
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Not Found: /js/main.js
+Not Found: /favicon.ico
+Internal Server Error: /admin/myreels/star/
+Traceback (most recent call last):
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 477, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such column: myreels_star.id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 683, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 2063, in changelist_view
+    "selection_note": _("0 of %(cnt)s selected") % {"cnt": len(cl.result_list)},
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/db/models/query.py", line 302, in __len__
+    self._fetch_all()
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1507, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/db/models/query.py", line 57, in __iter__
+    results = compiler.execute_sql(
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1361, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 477, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such column: myreels_star.id
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Not Found: /js/main.js
+Internal Server Error: /admin/myreels/star/
+Traceback (most recent call last):
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 477, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such column: myreels_star.id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 683, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 2063, in changelist_view
+    "selection_note": _("0 of %(cnt)s selected") % {"cnt": len(cl.result_list)},
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/db/models/query.py", line 302, in __len__
+    self._fetch_all()
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1507, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/db/models/query.py", line 57, in __iter__
+    results = compiler.execute_sql(
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1361, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 477, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such column: myreels_star.id
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Internal Server Error: /admin/myreels/cast/add/
+Traceback (most recent call last):
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 683, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1885, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1745, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1803, in _changeform_view
+    self.log_addition(request, new_object, change_message)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 921, in log_addition
+    object_repr=str(obj),
+  File "/Users/megalaravi/PycharmProjects/reels/myreels/models.py", line 29, in __str__
+    return '{} {}'.format(self.name)
+IndexError: Replacement index 1 out of range for positional args tuple
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Not Found: /js/main.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Not Found: /js/main.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Not Found: /js/main.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /js/main.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Internal Server Error: /6/
+Traceback (most recent call last):
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/myreels/views.py", line 55, in detail
+    form = OrderForm()
+NameError: name 'OrderForm' is not defined
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Not Found: /js/main.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Form is not post
+Form is not post
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Form is not post
+Form is not post
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Form is not post
+Form is not post
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Form is not post
+Forbidden (CSRF token from POST incorrect.): /forgot_password
+Form is not post
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Not Found: /js/main.js
+request.POST: GET
+Form is not post
+request.POST: POST
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Not Found: /js/main.js
+request.POST: GET
+Form is not post
+request.POST: POST
+Internal Server Error: /forgot_password
+Traceback (most recent call last):
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/myreels/views.py", line 151, in forgot_password
+    return redirect("myreels:forgot_password_done")
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/shortcuts.py", line 145, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/urls/resolvers.py", line 802, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'forgot_password_done' not found. 'forgot_password_done' is not a valid view function or pattern name.
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+request.POST: GET
+Form is not post
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Not Found: /js/main.js
+request.POST: GET
+Form is not post
+request.POST: POST
+Not Found: /password_reset/done/
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+request.POST: GET
+Form is not post
+request.POST: POST
+Internal Server Error: /forgot_password
+Traceback (most recent call last):
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/myreels/views.py", line 146, in forgot_password
+    email_content = render_to_string(email_template, content);
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 62, in render
+    return self.template.render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 52, in render
+    output = self.nodelist.render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/urls/resolvers.py", line 802, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'password_reset_confirm' not found. 'password_reset_confirm' is not a valid view function or pattern name.
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+request.POST: GET
+Form is not post
+request.POST: POST
+Internal Server Error: /forgot_password
+Traceback (most recent call last):
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/myreels/views.py", line 151, in forgot_password
+    return redirect("reels")
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/shortcuts.py", line 145, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/urls/resolvers.py", line 802, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'reels' not found. 'reels' is not a valid view function or pattern name.
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+request.POST: GET
+Form is not post
+request.POST: POST
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+request.POST: GET
+Form is not post
+request.POST: POST
+Internal Server Error: /forgot_password
+Traceback (most recent call last):
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/myreels/views.py", line 148, in forgot_password
+    send_mail(subject, email_content, 'admin@example.com', [user.email], fail_silently=False)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/mail/__init__.py", line 87, in send_mail
+    return mail.send()
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/mail/message.py", line 298, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 124, in send_messages
+    new_conn_created = self.open()
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 80, in open
+    self.connection = self.connection_class(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/socket.py", line 845, in create_connection
+    raise err
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/socket.py", line 833, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 61] Connection refused
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+request.POST: GET
+Form is not post
+request.POST: POST
+Internal Server Error: /forgot_password
+Traceback (most recent call last):
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/myreels/views.py", line 148, in forgot_password
+    send_mail(subject, email_content, 'admin@example.com', [user.email], fail_silently=False)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/mail/__init__.py", line 87, in send_mail
+    return mail.send()
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/mail/message.py", line 298, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 124, in send_messages
+    new_conn_created = self.open()
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 91, in open
+    self.connection.login(self.username, self.password)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/smtplib.py", line 750, in login
+    raise last_exception
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials c20-20020a05622a025400b002e1dd71e797sm499012qtx.15 - gsmtp')
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+request.POST: GET
+Form is not post
+request.POST: POST
+Internal Server Error: /forgot_password
+Traceback (most recent call last):
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/myreels/views.py", line 148, in forgot_password
+    send_mail(subject, email_content, 'reels@gmail.com', [user.email], fail_silently=False)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/mail/__init__.py", line 87, in send_mail
+    return mail.send()
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/mail/message.py", line 298, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 124, in send_messages
+    new_conn_created = self.open()
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 91, in open
+    self.connection.login(self.username, self.password)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/smtplib.py", line 750, in login
+    raise last_exception
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials p16-20020a05622a13d000b002e227782e9asm429764qtk.14 - gsmtp')
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Not Found: /js/main.js
+request.POST: GET
+Form is not post
+request.POST: POST
+Internal Server Error: /forgot_password
+Traceback (most recent call last):
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/myreels/views.py", line 149, in forgot_password
+    final_email.send()
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/mail/message.py", line 298, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 124, in send_messages
+    new_conn_created = self.open()
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 91, in open
+    self.connection.login(self.username, self.password)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/smtplib.py", line 750, in login
+    raise last_exception
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials i23-20020a05620a145700b0069c4e3b9c1dsm354751qkl.46 - gsmtp')
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+request.POST: GET
+Form is not post
+request.POST: POST
+Internal Server Error: /forgot_password
+Traceback (most recent call last):
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/myreels/views.py", line 149, in forgot_password
+    final_email.send()
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/mail/message.py", line 298, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 124, in send_messages
+    new_conn_created = self.open()
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 91, in open
+    self.connection.login(self.username, self.password)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/smtplib.py", line 750, in login
+    raise last_exception
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials b2-20020ac87fc2000000b002f11f6dd5cdsm471853qtk.23 - gsmtp')
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+request.POST: GET
+Form is not post
+request.POST: POST
+Internal Server Error: /forgot_password
+Traceback (most recent call last):
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/myreels/views.py", line 149, in forgot_password
+    final_email.send()
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/mail/message.py", line 298, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 124, in send_messages
+    new_conn_created = self.open()
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 91, in open
+    self.connection.login(self.username, self.password)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/smtplib.py", line 750, in login
+    raise last_exception
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials d8-20020ac85d88000000b002f18ecfd221sm445335qtx.82 - gsmtp')
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+request.POST: GET
+Form is not post
+request.POST: POST
+request.POST: POST
+Internal Server Error: /forgot_password
+Traceback (most recent call last):
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/myreels/views.py", line 149, in forgot_password
+    final_email.send()
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/mail/message.py", line 298, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 124, in send_messages
+    new_conn_created = self.open()
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 80, in open
+    self.connection = self.connection_class(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/socket.py", line 845, in create_connection
+    raise err
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/socket.py", line 833, in create_connection
+    sock.connect(sa)
+TimeoutError: [Errno 60] Operation timed out
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+request.POST: GET
+Form is not post
+request.POST: POST
+Internal Server Error: /forgot_password
+Traceback (most recent call last):
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/myreels/views.py", line 149, in forgot_password
+    final_email.send()
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/mail/message.py", line 298, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 124, in send_messages
+    new_conn_created = self.open()
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 91, in open
+    self.connection.login(self.username, self.password)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/smtplib.py", line 750, in login
+    raise last_exception
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials f18-20020a05622a1a1200b002eef655b3e3sm415815qtb.94 - gsmtp')
+request.POST: GET
+Form is not post
+request.POST: POST
+Internal Server Error: /forgot_password
+Traceback (most recent call last):
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/myreels/views.py", line 149, in forgot_password
+    final_email.send()
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/mail/message.py", line 298, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 124, in send_messages
+    new_conn_created = self.open()
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 91, in open
+    self.connection.login(self.username, self.password)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/smtplib.py", line 750, in login
+    raise last_exception
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials a200-20020a3766d1000000b0069c1125b7bbsm368684qkc.57 - gsmtp')
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+request.POST: GET
+Form is not post
+request.POST: POST
+Internal Server Error: /forgot_password
+Traceback (most recent call last):
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/myreels/views.py", line 149, in forgot_password
+    final_email.send()
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/mail/message.py", line 298, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 124, in send_messages
+    new_conn_created = self.open()
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 91, in open
+    self.connection.login(self.username, self.password)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/smtplib.py", line 750, in login
+    raise last_exception
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials a23-20020a05620a103700b00699d49c511dsm375469qkk.104 - gsmtp')
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+request.POST: GET
+Form is not post
+request.POST: POST
+Internal Server Error: /forgot_password
+Traceback (most recent call last):
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/myreels/views.py", line 149, in forgot_password
+    final_email.send()
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/mail/message.py", line 298, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 124, in send_messages
+    new_conn_created = self.open()
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 91, in open
+    self.connection.login(self.username, self.password)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/smtplib.py", line 750, in login
+    raise last_exception
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials w9-20020a05620a444900b00699b2ba4cd1sm408851qkp.56 - gsmtp')
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+request.POST: GET
+Form is not post
+request.POST: POST
+Internal Server Error: /reset/Mg/set-password
+Traceback (most recent call last):
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/views/decorators/debug.py", line 92, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/contrib/auth/views.py", line 285, in dispatch
+    return super().dispatch(*args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 153, in post
+    return self.form_valid(form)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/contrib/auth/views.py", line 326, in form_valid
+    return super().form_valid(form)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 65, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 59, in get_success_url
+    if not self.success_url:
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/utils/functional.py", line 141, in __wrapper__
+    res = func(*self.__args, **self.__kw)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/urls/resolvers.py", line 802, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'password_reset_complete' not found. 'password_reset_complete' is not a valid view function or pattern name.
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Not Found: /js/main.js
+request.POST: GET
+Form is not post
+request.POST: POST
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Not Found: /js/main.js
+request.POST: GET
+Form is not post
+request.POST: POST
+Internal Server Error: /reset/Mg/set-password
+Traceback (most recent call last):
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/views/decorators/debug.py", line 92, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/contrib/auth/views.py", line 285, in dispatch
+    return super().dispatch(*args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 153, in post
+    return self.form_valid(form)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/contrib/auth/views.py", line 326, in form_valid
+    return super().form_valid(form)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 65, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 59, in get_success_url
+    if not self.success_url:
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/utils/functional.py", line 141, in __wrapper__
+    res = func(*self.__args, **self.__kw)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/urls/resolvers.py", line 802, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'password_reset_complete' not found. 'password_reset_complete' is not a valid view function or pattern name.
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+request.POST: GET
+Form is not post
+request.POST: POST
+Internal Server Error: /reset/Mg/set-password
+Traceback (most recent call last):
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/views/decorators/debug.py", line 92, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/contrib/auth/views.py", line 285, in dispatch
+    return super().dispatch(*args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 153, in post
+    return self.form_valid(form)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/contrib/auth/views.py", line 326, in form_valid
+    return super().form_valid(form)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 65, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 59, in get_success_url
+    if not self.success_url:
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/utils/functional.py", line 141, in __wrapper__
+    res = func(*self.__args, **self.__kw)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/urls/resolvers.py", line 802, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'password_reset_complete' not found. 'password_reset_complete' is not a valid view function or pattern name.
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+request.POST: GET
+Form is not post
+request.POST: POST
+Internal Server Error: /reset/Mg/set-password
+Traceback (most recent call last):
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/views/decorators/debug.py", line 92, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/contrib/auth/views.py", line 285, in dispatch
+    return super().dispatch(*args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 153, in post
+    return self.form_valid(form)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/contrib/auth/views.py", line 326, in form_valid
+    return super().form_valid(form)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 65, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 59, in get_success_url
+    if not self.success_url:
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/utils/functional.py", line 141, in __wrapper__
+    res = func(*self.__args, **self.__kw)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/urls/resolvers.py", line 802, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'password_reset_complete' not found. 'password_reset_complete' is not a valid view function or pattern name.
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+request.POST: GET
+Form is not post
+request.POST: POST
+Internal Server Error: /reset/Mg/set-password
+Traceback (most recent call last):
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/views/decorators/debug.py", line 92, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/contrib/auth/views.py", line 285, in dispatch
+    return super().dispatch(*args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 153, in post
+    return self.form_valid(form)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/contrib/auth/views.py", line 326, in form_valid
+    return super().form_valid(form)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 65, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 59, in get_success_url
+    if not self.success_url:
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/utils/functional.py", line 141, in __wrapper__
+    res = func(*self.__args, **self.__kw)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/urls/resolvers.py", line 802, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'password_reset_complete' not found. 'password_reset_complete' is not a valid view function or pattern name.
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Not Found: /js/main.js
+Internal Server Error: /login
+Traceback (most recent call last):
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/myreels/views.py", line 107, in auth_login
+    return render(request, 'myreels/login.html', context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 62, in render
+    return self.template.render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/urls/resolvers.py", line 802, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'forgot_password' not found. 'forgot_password' is not a valid view function or pattern name.
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+request.POST: GET
+Form is not post
+request.POST: POST
+Internal Server Error: /forgot_password
+Traceback (most recent call last):
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/myreels/views.py", line 146, in forgot_password
+    email_content = render_to_string(email_template, content);
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 62, in render
+    return self.template.render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 52, in render
+    output = self.nodelist.render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/urls/resolvers.py", line 802, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'forgot_password_confirm' not found. 'forgot_password_confirm' is not a valid view function or pattern name.
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Not Found: /js/main.js
+request.POST: GET
+Form is not post
+request.POST: POST
+Internal Server Error: /forgot_password
+Traceback (most recent call last):
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/myreels/views.py", line 146, in forgot_password
+    email_content = render_to_string(email_template, content);
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 62, in render
+    return self.template.render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 52, in render
+    output = self.nodelist.render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/urls/resolvers.py", line 802, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'forgot_password_confirm' not found. 'forgot_password_confirm' is not a valid view function or pattern name.
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+request.POST: GET
+Form is not post
+request.POST: POST
+Internal Server Error: /forgot_password
+Traceback (most recent call last):
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/urls/base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'reels'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/myreels/views.py", line 146, in forgot_password
+    email_content = render_to_string(email_template, content);
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 62, in render
+    return self.template.render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 52, in render
+    output = self.nodelist.render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/urls/base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'reels' is not a registered namespace
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Not Found: /js/main.js
+request.POST: GET
+Form is not post
+request.POST: POST
+Internal Server Error: /forgot_password
+Traceback (most recent call last):
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/urls/base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'reels'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/myreels/views.py", line 146, in forgot_password
+    email_content = render_to_string(email_template, content);
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 62, in render
+    return self.template.render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 52, in render
+    output = self.nodelist.render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/urls/base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'reels' is not a registered namespace
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+request.POST: GET
+Form is not post
+request.POST: POST
+Internal Server Error: /forgot_password
+Traceback (most recent call last):
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/myreels/views.py", line 146, in forgot_password
+    email_content = render_to_string(email_template, content);
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 62, in render
+    return self.template.render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 52, in render
+    output = self.nodelist.render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/urls/resolvers.py", line 802, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'forgot_password_confirm' not found. 'forgot_password_confirm' is not a valid view function or pattern name.
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Not Found: /js/main.js
+request.POST: GET
+Form is not post
+request.POST: POST
+Internal Server Error: /forgot_password
+Traceback (most recent call last):
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/myreels/views.py", line 146, in forgot_password
+    email_content = render_to_string(email_template, content);
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 62, in render
+    return self.template.render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 52, in render
+    output = self.nodelist.render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/urls/resolvers.py", line 802, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'forgot_password_confirm' not found. 'forgot_password_confirm' is not a valid view function or pattern name.
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Not Found: /js/main.js
+request.POST: GET
+Form is not post
+request.POST: POST
+Internal Server Error: /forgot_password
+Traceback (most recent call last):
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/myreels/views.py", line 153, in forgot_password
+    return redirect("forgot_password_done")
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/shortcuts.py", line 145, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/urls/resolvers.py", line 802, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'forgot_password_done' not found. 'forgot_password_done' is not a valid view function or pattern name.
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+request.POST: GET
+Form is not post
+request.POST: POST
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+request.POST: GET
+Form is not post
+request.POST: POST
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+request.POST: GET
+Form is not post
+request.POST: POST
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+request.POST: GET
+Form is not post
+request.POST: POST
+Method Not Allowed (POST): /accounts/password_reset/done/
+Method Not Allowed: /accounts/password_reset/done/
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Not Found: /js/main.js
+request.POST: GET
+Form is not post
+request.POST: POST
+Method Not Allowed (POST): /reset/done
+Method Not Allowed: /reset/done
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Not Found: /js/main.js
+request.POST: GET
+Form is not post
+request.POST: POST
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Not Found: /js/main.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Not Found: /js/main.js
+request.POST: GET
+Form is not post
+request.POST: POST
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Not Found: /js/main.js
+request.POST: GET
+Form is not post
+request.POST: POST
+Method Not Allowed (POST): /password_reset/done
+Method Not Allowed: /password_reset/done
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+request.POST: GET
+Form is not post
+request.POST: POST
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+request.POST: GET
+Form is not post
+request.POST: POST
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+request.POST: GET
+Form is not post
+request.POST: POST
+Internal Server Error: /forgot_password
+Traceback (most recent call last):
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/myreels/views.py", line 134, in forgot_password
+    if users.exists():
+AttributeError: 'User' object has no attribute 'exists'
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+request.POST: GET
+Form is not post
+request.POST: POST
+Internal Server Error: /forgot_password
+Traceback (most recent call last):
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/myreels/views.py", line 135, in forgot_password
+    for user in users:
+TypeError: 'User' object is not iterable
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+request.POST: GET
+Form is not post
+request.POST: POST
+request.POST: GET
+Form is not post
+request.POST: POST
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /favicon.ico
+Not Found: /js/main.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Internal Server Error: /6/
+Traceback (most recent call last):
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/myreels/views.py", line 45, in detail
+    order = form.save(False)
+AttributeError: 'OrderForm' object has no attribute 'save'
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Not Found: /js/main.js
+Internal Server Error: /6/
+Traceback (most recent call last):
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/myreels/views.py", line 46, in detail
+    order = form.save(False)
+AttributeError: 'OrderForm' object has no attribute 'save'
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Not Found: /js/main.js
+Internal Server Error: /6/
+Traceback (most recent call last):
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/myreels/views.py", line 48, in detail
+    order.client = client
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/db/models/fields/related_descriptors.py", line 235, in __set__
+    raise ValueError(
+ValueError: Cannot assign "<SimpleLazyObject: <User: megalaravi>>": "Order.client" must be a "Client" instance.
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /js/main.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Not Found: /js/main.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Internal Server Error: /6/
+Traceback (most recent call last):
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/myreels/views.py", line 49, in detail
+    return HttpResponse.write('<p>You have already placed successful order for this movie </p>')
+TypeError: HttpResponse.write() missing 1 required positional argument: 'content'
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Not Found: /js/main.js
+Internal Server Error: /6/
+Traceback (most recent call last):
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/myreels/views.py", line 49, in detail
+    return HttpResponse.write('<p>You have already placed successful order for this movie </p>')
+TypeError: HttpResponse.write() missing 1 required positional argument: 'content'
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Not Found: /js/main.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Not Found: /js/main.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Not Found: /js/main.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Not Found: /js/main.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Not Found: /js/main.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Not Found: /js/main.js
+Not Found: /favicon.ico
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Forbidden (CSRF token from POST incorrect.): /login
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/myreels/views.py", line 21, in index
+    return render(request, 'myreels/index.html', {'top_rated': top_rated, 'coming_soon': coming_soon})
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/engine.py", line 176, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/engine.py", line 158, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 518, in parse
+    self.unclosed_block_tag(parse_until)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 581, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 3: 'block'. Looking for one of: endblock.
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Not Found: /js/main.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Not Found: /js/main.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Not Found: /js/main.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Not Found: /js/main.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Not Found: /js/main.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Not Found: /js/main.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Not Found: /js/main.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Not Found: /js/main.js
+Not Found: /js/main.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Internal Server Error: /6/
+Traceback (most recent call last):
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/myreels/views.py", line 67, in detail
+    return render(request, 'myreels/detail.html', {'details': movie})
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 62, in render
+    return self.template.render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/urls/resolvers.py", line 802, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'cast_detail' with arguments '('', 2)' not found. 1 pattern(s) tried: ['cast/(?P<cast_id>[0-9]+)\\Z']
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Not Found: /js/main.js
+Internal Server Error: /6/
+Traceback (most recent call last):
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/myreels/views.py", line 67, in detail
+    return render(request, 'myreels/detail.html', {'details': movie})
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 62, in render
+    return self.template.render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/urls/resolvers.py", line 802, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'cast_detail/cast' not found. 'cast_detail/cast' is not a valid view function or pattern name.
+Internal Server Error: /1/
+Traceback (most recent call last):
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/myreels/views.py", line 39, in detail
+    movie = Movie.objects.get(id=type_no)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/db/models/query.py", line 496, in get
+    raise self.model.DoesNotExist(
+myreels.models.Movie.DoesNotExist: Movie matching query does not exist.
+Internal Server Error: /1/
+Traceback (most recent call last):
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/myreels/views.py", line 39, in detail
+    movie = Movie.objects.get(id=type_no)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/db/models/query.py", line 496, in get
+    raise self.model.DoesNotExist(
+myreels.models.Movie.DoesNotExist: Movie matching query does not exist.
+Internal Server Error: /1/
+Traceback (most recent call last):
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/myreels/views.py", line 39, in detail
+    movie = Movie.objects.get(id=type_no)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/db/models/query.py", line 496, in get
+    raise self.model.DoesNotExist(
+myreels.models.Movie.DoesNotExist: Movie matching query does not exist.
+Not Found: /favicon.ico
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Not Found: /js/main.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Not Found: /js/main.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Not Found: /js/main.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Not Found: /js/main.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Not Found: /js/main.js
+Internal Server Error: /6/
+Traceback (most recent call last):
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/megalaravi/PycharmProjects/reels/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/megalaravi/PycharmProjects/reels/myreels/views.py", line 48, in detail
+    if orders.exists() and orders.movie.id == movie.id:
+AttributeError: 'QuerySet' object has no attribute 'movie'
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Not Found: /js/main.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Not Found: /js/main.js
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Not Found: /js/main.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Not Found: /js/main.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Not Found: /js/main.js
+Not Found: /favicon.ico
+Not Found: /js/search.js
+Not Found: /js/main.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /favicon.ico
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Not Found: /js/main.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /favicon.ico
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Not Found: /js/main.js
+Not Found: /favicon.ico
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Not Found: /js/main.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Not Found: /js/main.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /favicon.ico
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Not Found: /js/main.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Not Found: /js/main.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Not Found: /js/main.js
+Not Found: /favicon.ico
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+request.POST: GET
+Form is not post
+request.POST: POST
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Form is not post
+Form is not post
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/search.js
+Not Found: /js/main.js
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
+Not Found: /favicon.ico
+Not Found: /fontawesome-free-5.15.1/css/all.css
+Not Found: /js/main.js
+Not Found: /js/search.js
